@@ -1,7 +1,6 @@
 struct stat;
 struct rtcdate;
 struct condvar;
-struct spinlock;
 
 // system calls
 int fork(void);
