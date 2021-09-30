@@ -17,7 +17,6 @@ void unlock(struct spinlock * lk) {
  xchg(&lk->locked, 0);
 }
 
-
 char*
 strcpy(char *s, const char *t)
 {
