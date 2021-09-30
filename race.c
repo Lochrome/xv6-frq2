@@ -2,6 +2,7 @@
 #include "stat.h"
 #include "user.h"
 #include "condvar.h"
+#include "spinlock.h"
 
 //We want Child 1 to execute first, then Child 2, and finally Parent.
 int main() {
